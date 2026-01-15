@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Website Menarik</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, pink 0%, pink 100%);
+      color: white;
+    }
+
+    /* 🔹 Navigasi */
+    nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background: rgba(0,0,0,0.3);
+      padding: 15px 20px;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      backdrop-filter: blur(5px);
+      z-index: 1000;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #ff9800;
+    }
+
+    header {
+      text-align: center;
+      padding: 100px 20px 60px;
+    }
+
+    header h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2em;
+      opacity: 0.9;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 24px;
+      font-size: 1em;
+      border-radius: 30px;
+      background: white;
+      color: #2575fc;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #ff9800;
+      color: white;
+    }
+
+    section {
+      background: white;
+      color: #333;
+      padding: 60px 20px;
+      border-radius: 40px 40px 0 0;
+      margin-top: -30px;
+    }
+
+    section h2 {
+      text-align: center;
+      margin-bottom: 30px;
+      color: #2575fc;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #f5f5f5;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: rgba(0,0,0,0.2);
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 🔹 Navigasi -->
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#fitur">Fitur</a>
+    <a href="#tentang">Tentang</a>
+    <a href="#kontak">Kontak</a>
+  </nav>
+
+  <!-- 🔹 Header -->
+  <header id="home">
+    <h1>Selamat Datang!</h1>
+    <p>Website yang dibuat khusus untuk orang yang speciall🥰🥰🥰</p>
+    <a href="#fitur" class="btn">Lihat Orang speciall</a>
+    <a href="#kontak" class="btn">Kontak Yang Bikin</a>
+  </header>
+
+  <!-- 🔹 Section Fitur -->
+  <section id="fitur">
+    <h2>List Inpo Ameng</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Mountain🗻</h3>
+        <p>Tempat seeu dimana kita bisa mengobrol sambil melihat pemandangan alam.</p>
+      </div>
+      <div class="card">
+        <h3>Bioskop</h3>
+        <p>Tempat seru dimana kita bisa mengobrol sambil menonton film.</p>
+      </div>
+      <div class="card">
+      <center> <h3>🖕 </h3>
+        <p> 🖕🏻</p>
+        
+        <a href="pakyu.html" target="_black" class="btn">😂</a>
+        </center> 
+      </div>
+    </div>
+  </section>
+
+  <!-- 🔹 Section Tentang -->
+  <section id="tentang">
+    <h2>Tentang Website</h2>
+    <p style="text-align:center; max-width:600px; margin:auto;">
+      Website ini dibuat Oleh Addick IFSU untuk Kakack Yang
+      Ada di SMEA.
+      Untuk Memberi Tahu Bahwa Ngoding Itu Seru dan Menyenangkan,Apalagi Kalau Sama Anak IFSU🤣</p>
+  </section>
+
+  <!-- 🔹 Section Kontak -->
+  <section id="kontak">
+    <h2>Kontak</h2>
+    <p style="text-align:center;">Klik tombol di bawah untuk menghubungi:</p>
+    <div style="text-align:center;">
+      <a href="mailto:contoh@email.com" class="btn">Email</a>
+      <a href="https://wa.me/qr/KHBDL4A2WE3MF1" target="_blank" class="btn">WhatsApp</a>
+    </div>
+  </section>
+
+  <!-- 🔹 Footer -->
+  <footer>
+    <p> Website Menarik Yang Dibuat dengan ❤️</p>
+  </footer>
+
+</body>
+</html>
